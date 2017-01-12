@@ -1,0 +1,8 @@
+Lession 2 Refelctions
+
+What happens when you initialize a repository? Why do you need to do it?
+intializign a repository creates the hidden git directory and all the 
+required infrastructure to make a repository work.
+
+It does not commit anything though.  It's just ready to go.
+

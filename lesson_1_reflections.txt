@@ -1,0 +1,33 @@
+reflections for lession 1:
+
+- code can be unwieldy and finding what you changed last manually coudl be a nightmare.
+
+- all OS' have tools to allow you to easily compare simple text files.
+- Windos: fc <filename> <filename>
+- linux: diff -u <filename> <filename>
+
+reading each is a little different but is better than manual
+
+what if you don't easily know what your last file was or which file you changed.  
+There can be many files in multiple directories and know how to compare one vs. 
+another is a big deal that the basic tools won't hemp you with.
+
+Using History for Efficieny:
+havign acces smenas you don't have the put thought into saving the hostory.  It si just avialable.
+It also means that long historys over many changes and savings can easily be tracked
+again without having to think about it.
+
+Manual Commits:
+pros and cons of manual commits.
+pro: they will be made based on unit of work done / accomplushed not an arbitrary measure
+con: you could be inconsistnet in the appliciton of standards
+con: you could forget to commits
+
+Multi-file commits:
+why multi-file?
+Some verison do multi-file becuase of the kind of applicaiton that they are designed to supprot.
+Google docs etc are or more stand alne artificats.  It's rare from my 
+experience that many multiple docs are stored as a group and are interelated.
+
+In code however... this can happen all the time!
+
