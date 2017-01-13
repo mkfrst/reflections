@@ -6,3 +6,25 @@ required infrastructure to make a repository work.
 
 It does not commit anything though.  It's just ready to go.
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+its a great concept becuase it allows the user to chosoe what will be in the 
+particular commit... some or all of the current things in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can run git diff --staging to compare the changes in teh staging area vs the latest
+and see if all the changes contained thierin are logically related.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Brnaches can really help when you wan tto maintain the working condition of the
+code but want to make significant changes that you are note sure will:
+- work corectly
+- have broad rammifications that you don't fully grok
+- are not sure that you want to keep
+
+How do the diagrams help you visualize the branch structure?
+they make it clearer how various commits are related and if there
+are section of the commited code that are unrelated to other code
