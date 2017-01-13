@@ -28,3 +28,25 @@ code but want to make significant changes that you are note sure will:
 How do the diagrams help you visualize the branch structure?
 they make it clearer how various commits are related and if there
 are section of the commited code that are unrelated to other code
+
+
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+merging the two benaches includes the changes from both branches into one set of files
+and commits them.  it also maintains the revision hisotry of both brnaches 
+in the history for the new master head.
+
+We show the bracnh of master as movign to the side and then returning to the 
+mainline MASTER and the MASTER stays as a straght line.  We do this beccuase 
+there is always a MASTER as the "MainLine" code.   Keep that one centered and "stright".
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros:
++ simplifies the merging process
++ faster
++ reserves non-obvious resolutiosn for the authors to address
+
+cons:
+- could miss some conflicts that are more ligical than code
