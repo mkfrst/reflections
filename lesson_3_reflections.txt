@@ -10,4 +10,11 @@ others can make suggestions thigns may be inserted and you may not be prepared f
 they may confuse you or be irrelevant to you.   Why clutter up your local workign space without you knowing
 what is going on.
 
-
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks: are located on github and xcreate a copy of someone else's reposity in your working space 
+	and maintains the link back to the orignal reposity it was forked from
+clones: clones are copies of repositories in a local workspace
+branches:  are parts of a "project" that have differed frmo the master branch and are beign worked on
+	seperately until it is time, if ever, to merge them back into the master
+	
+	
