@@ -2,3 +2,12 @@ When would you want to use a remote repository rather than keeping all your work
 you might do this when you wan t access from multiple machines.
 you might enable this to provide a way for many peopel to work on a project together
 you might do this to provide back-up and security in the case of a devestating probelm with your machine
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+if you are workign together eith peopel or you have a public repository where 
+others can make suggestions thigns may be inserted and you may not be prepared for those suggestions
+they may confuse you or be irrelevant to you.   Why clutter up your local workign space without you knowing
+what is going on.
+
+
