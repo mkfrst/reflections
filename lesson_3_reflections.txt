@@ -17,4 +17,19 @@ clones: clones are copies of repositories in a local workspace
 branches:  are parts of a "project" that have differed frmo the master branch and are beign worked on
 	seperately until it is time, if ever, to merge them back into the master
 	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This enables you to continue to work offline and still be able to see what's been going on by others
+the commands can run faster and have visisbility to all you have chnaged before you make 
+	them visible to others by pushing them up to github
 	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+without github you woudl use different kinds of tools to communicate about status etc.
+you migh tuse email or a wiki to post current state or when updates have been made.
+emails coudl talk about changes etc.
+
+nothign woudl be linked directly to the code thogh and there would be many switches back and forth 
+to the repositories.  Keeping everythighn synced woudl be difficulet and it would seem
+that all the process / workflow steps woudl be widely differnt based on the person and take 
+much longer as well.
+
+
