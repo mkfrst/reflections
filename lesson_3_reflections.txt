@@ -33,3 +33,11 @@ that all the process / workflow steps woudl be widely differnt based on the pers
 much longer as well.
 
 
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+You might want to make changes in a sperate branch rather than direclty main becuase you want to maintain
+a working master
+you might be tearing up so much that you are not sure how much time it will take before you are done or if you will keep it
+
+benefits to always working on the master is simpler updating and management.
+
